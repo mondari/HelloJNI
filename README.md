@@ -6,13 +6,13 @@
 
 1. Generate Header File 配置：
 name：`Generate Header File` 
-Program：`$JDKPath$/bin/javah `
+Program：`$JDKPath$/bin/javah`
 Parameters：`-jni -classpath $OutputPath$ -d ./jni $FileClass$`
 Working Directory：`$ProjectFileDir$`
 
 2. Generate DLL 配置：
 name：`Generate DLL` 
-Program：`<GCC路径> `
+Program：`<GCC路径>`
 Parameters：`-Wl,--add-stdcall-alias -I"<JDK路径>\include" -I"<JDK路径>\include\win32" -shared -o $FileNameWithoutExtension$.dll ./jni/$FileNameWithoutExtension$.c`
 Working Directory：`$ProjectFileDir$`
 

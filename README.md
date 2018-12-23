@@ -1,4 +1,4 @@
-# 使用IDEA进行JNI 编程
+# 使用IDEA进行JNI编程
 
 参考文章：[IntelliJ IDEA平台下JNI编程（一）—HelloWorld篇](http://blog.csdn.net/huachao1001/article/details/53906237)
 
